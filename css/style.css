@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+
 /* 
 font-family: 'Handlee', cursive;
 font-family: 'Montserrat', sans-serif;
@@ -29,6 +30,7 @@ img {
     --margingrid: 1em;
     --fontsize: 1em;
     --anchomaximo: 1100px;
+    /* valores para Blog */
 }
 
 body {
@@ -40,6 +42,7 @@ body {
     max-width: var(--anchomaximo);
     margin: 0 auto;
 }
+
 
 /* inicio header */
 
@@ -117,7 +120,9 @@ header nav .hamburguesa div {
     width: 2em;
 }
 
+
 /* fin header */
+
 
 /* inicio footer */
 
@@ -149,7 +154,9 @@ footer a:hover {
     font-size: 250%;
 }
 
+
 /* fin footer */
+
 
 /* inicio hero */
 
@@ -219,7 +226,9 @@ footer a:hover {
     font-size: 2em;
 }
 
+
 /* fin hero */
+
 
 /* inicio ourservices */
 
@@ -296,7 +305,9 @@ main section p {
     transform: rotateY(180deg);
 }
 
+
 /* fin ourservices */
+
 
 /* inicio aboutus */
 
@@ -330,11 +341,14 @@ main #aboutus .imagen .marco img {
     transition: 1s;
 }
 
-main #aboutus .imagen:hover .marco, main #aboutus .imagen:hover .marco img {
+main #aboutus .imagen:hover .marco,
+main #aboutus .imagen:hover .marco img {
     transform: rotateZ(0deg);
 }
 
+
 /* fin aboutus */
+
 
 /* mediaquerys */
 
