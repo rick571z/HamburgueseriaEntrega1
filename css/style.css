@@ -522,6 +522,21 @@ main div .miposition1 p {
     word-spacing: 0.25em;
 }
 
+main div .desplazar h2 {
+    position: relative;
+    /* despl dere */
+    left: 350px;
+    /* bottom: -40px; */
+    font-size: 50px;
+}
+
+main section div .underline5 hr {
+    position: absolute;
+    width: 100%;
+    left: 380px;
+    border-color: var(--colorprincipal);
+}
+
 
 /* main div .mifigura {
     width: 450px;
