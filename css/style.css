@@ -395,6 +395,21 @@ main section div .letras a {
     display: flex;
 }
 
+
+/* PRIMERO */
+
+main div h3 #cambioColor {
+    color: white;
+}
+
+
+/* SEGUNDO */
+
+main div .miposition1 {
+    /* text-align: left; */
+    float: left;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
