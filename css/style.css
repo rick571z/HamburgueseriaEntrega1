@@ -334,6 +334,24 @@ main section div .letras {
     left: 20px;
 }
 
+
+/* SEXTO CAMBIO */
+
+main section div .letras h3 {
+    position: relative;
+    top: 20px;
+    font-size: 22px;
+}
+
+
+/* SEPTIMO CAMBIO */
+
+main section div .letras h4 {
+    position: relative;
+    top: 30px;
+    color: var(--colorprincipal);
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
