@@ -454,6 +454,48 @@ main section .underline2 {
     margin-bottom: var(--margingrid);
 }
 
+
+/* SEXTO */
+
+main div .letras h4 {
+    /* position: absolute; */
+    /* top: 5px;
+    left: 5px; */
+    position: relative;
+    left: 660px;
+}
+
+main div .letras p {
+    /* position: absolute; */
+    /* top: 5px;
+    left: 5px; */
+    position: relative;
+    left: 660px;
+}
+
+main div .letras a {
+    /* position: absolute; */
+    /* top: 5px;
+    left: 5px; */
+    position: relative;
+    left: 660px;
+}
+
+main div .letras {
+    /* desplazamiento  */
+    position: relative;
+    bottom: 455px;
+}
+
+
+/* main div .miposition2 {
+    position: relative;
+    bottom: 300px;
+} */
+
+
+/* fin de MENU */
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
