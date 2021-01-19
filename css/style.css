@@ -352,6 +352,24 @@ main section div .letras h4 {
     color: var(--colorprincipal);
 }
 
+
+/* OCTAVO CAMBIO */
+
+main section div .letras P {
+    position: relative;
+    top: 40px;
+    /* espacion entre las palabras */
+    word-spacing: 0.25em;
+}
+
+
+/* NOVENO CAMBIO */
+
+main section div .letras a {
+    position: relative;
+    top: 25px;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
