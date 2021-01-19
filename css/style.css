@@ -384,6 +384,17 @@ main section div .letras a {
     right: 18px;
 }
 
+
+/* INICIO MENU */
+
+.paint {
+    background-color: #1c1c1c;
+    /* background-position: center center; */
+    background-size: cover;
+    color: white;
+    display: flex;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
