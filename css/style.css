@@ -471,6 +471,7 @@ main div .letras2 p {
     left: 5px; */
     position: relative;
     left: 660px;
+    bottom: -150px;
 }
 
 main div .letras2 a {
@@ -479,6 +480,7 @@ main div .letras2 a {
     left: 5px; */
     position: relative;
     left: 660px;
+    bottom: -300px;
 }
 
 main div .letras2 {
@@ -506,6 +508,22 @@ main div .miposition1 h3 {
     position: relative;
     /* despl dere */
     left: 150px;
+    bottom: -40px;
+}
+
+main div .underline2 {
+    bottom: -10px;
+    left: 15px;
+}
+
+main div .miposition1 p {
+    bottom: 11px;
+    left: 110px;
+    word-spacing: 0.25em;
+}
+
+main div section div ul .desayuno {
+    /* left: 20px; */
 }
 
 
