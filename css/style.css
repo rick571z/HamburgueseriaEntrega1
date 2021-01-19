@@ -410,6 +410,24 @@ main div .miposition1 {
     float: left;
 }
 
+main div .miposition1 p {
+    background-color: #1c1c1c;
+    position: relative;
+    /* desplaza a la derica */
+    left: 180px;
+    /* tamaño de la caja */
+    width: 400px;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+/* TERCERO */
+
+.miposition2 {
+    float: left;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
