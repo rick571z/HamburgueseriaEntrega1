@@ -370,6 +370,20 @@ main section div .letras a {
     top: 25px;
 }
 
+
+/* DECIMO CAMBIO */
+
+.boton2 {
+    display: inline-block;
+    background-color: white;
+    padding: var(--margingrid);
+    color: var(--colorprincipal);
+    text-decoration: none;
+    margin: var(--margingrid) 0;
+    position: absolute;
+    right: 18px;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
