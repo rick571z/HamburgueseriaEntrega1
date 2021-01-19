@@ -428,6 +428,21 @@ main div .miposition1 p {
     float: left;
 }
 
+
+/* CUARTO */
+
+main div .miposition1 h3 {
+    /* background-color: #1c1c1c; */
+    position: relative;
+    /* desplaza a la derica */
+    left: 220px;
+    /* tamaño de la caja */
+    width: 200px;
+    padding: 15px;
+    margin: 20px;
+    font-weight: 50;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
