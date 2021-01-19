@@ -457,7 +457,7 @@ main section .underline2 {
 
 /* SEXTO */
 
-main div .letras h4 {
+main div .letras2 h4 {
     /* position: absolute; */
     /* top: 5px;
     left: 5px; */
@@ -465,7 +465,7 @@ main div .letras h4 {
     left: 660px;
 }
 
-main div .letras p {
+main div .letras2 p {
     /* position: absolute; */
     /* top: 5px;
     left: 5px; */
@@ -473,7 +473,7 @@ main div .letras p {
     left: 660px;
 }
 
-main div .letras a {
+main div .letras2 a {
     /* position: absolute; */
     /* top: 5px;
     left: 5px; */
@@ -481,17 +481,32 @@ main div .letras a {
     left: 660px;
 }
 
-main div .letras {
+main div .letras2 {
     /* desplazamiento  */
     position: relative;
-    bottom: 455px;
+    /* desplaza arriba abajo */
+    bottom: 425px;
 }
 
-
-/* main div .miposition2 {
+main div .miposition2 {
     position: relative;
-    bottom: 300px;
-} */
+    bottom: -60px;
+    /* desplaza a la der */
+    left: 265px;
+}
+
+main div .miposition1 {
+    position: relative;
+    bottom: -60px;
+    /* despl dere */
+    left: 130px;
+}
+
+main div .miposition1 h3 {
+    position: relative;
+    /* despl dere */
+    left: 150px;
+}
 
 
 /* fin de MENU */
