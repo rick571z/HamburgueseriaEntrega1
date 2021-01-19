@@ -295,6 +295,27 @@ main section ul {
     text-align: center;
 }
 
+
+/* TERCER CAMBIO */
+
+main #ourservices li {
+    background-position: center center;
+    background-size: cover;
+    background-color: var(--colorprincipal);
+    background-blend-mode: multiply;
+    color: white;
+    padding: 4%;
+}
+
+
+/* CUARTO CAMBIO */
+
+main section div .imagen {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
