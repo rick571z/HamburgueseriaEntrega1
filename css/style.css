@@ -31,6 +31,7 @@ img {
     --fontsize: 1em;
     --anchomaximo: 1100px;
     /* valores para Blog */
+    --tam-letra: 1;
 }
 
 body {
@@ -271,6 +272,16 @@ main #ourservices .grid {
     display: grid;
 }
 
+
+/* PRIMER CAMBIO */
+
+main #ourservices .grid div .cambio {
+    color: var(--colorprincipal);
+    font-size: 150%;
+    border: 1px solid var(--colorprincipal);
+    width: 20%;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
@@ -351,6 +362,16 @@ main #aboutus .imagen:hover .marco img {
 
 
 /* mediaquerys */
+
+
+/* 1 AGREGADO MEDIAQ,falta */
+
+@media(min-width: 621px) {
+    main section div .letras h3 {
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 @media(min-width: 600px) {
     main #ourservices .grid {

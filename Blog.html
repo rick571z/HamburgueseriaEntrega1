@@ -53,9 +53,9 @@
                         <div></div>
                     </div>
                     <ul class="menu">
-                        <li><a class="activo" href="">Inicio</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a class="activo" href="index.html">Inicio</a></li>
+                        <li><a href="Menu.html">Menu</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
                         <li><a href="">Equipo</a></li>
                     </ul>
                 </div>
@@ -84,10 +84,10 @@
             </div>
 
             <!--inicio de la section-->
-            <section>
+            <section id="ourservices">
                 <!--div general, que contedra los tres anuncios de Blog-->
-                <div>
-                    <h2>Our Blog</h2>
+                <div class="container">
+                    <h2>Our<span>Blog</span></h2>
                     <!--para representar la linea con la x-->
                     <div class="underline">
                         <hr noshade="noshade">
@@ -95,34 +95,91 @@
                     </div>
 
                     <!--div para los tres anuncios-->
-                    <div>
+                    <div class="grid">
+
                         <!--se divide los anunicos en tre articulos-->
-                        <article>
-                            <h3>Our Weekly Best Foods</h3>
-                            <h4>Posted by Rovers</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fugit adipisci voluptate, sunt assumenda voluptatibus, blanditiis distinctio nemo tempora, ad inventore hic repellendus sapiente. Labore nemo at magnam praesentium
-                                distinctio.
-                            </p>
-                            <a href="">Read More</a>
-                        </article>
+                        <div class="column">
+                            <div class="imagen">
 
-                        <article>
-                            <h3>Top Five Reason To Visit</h3>
-                            <h4>Posted by Rovers</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fugit adipisci voluptate, sunt assumenda voluptatibus, blanditiis distinctio nemo tempora, ad inventore hic repellendus sapiente. Labore nemo at magnam praesentium
-                                distinctio.
-                            </p>
-                            <a href="">Read More</a>
-                        </article>
+                                <figure>
+                                    <img src="images/news3.jpg" alt="">
+                                </figure>
 
-                        <article>
-                            <h3>Restaurant's Inside Design</h3>
-                            <h4>Posted by Rovers</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fugit adipisci voluptate, sunt assumenda voluptatibus, blanditiis distinctio nemo tempora, ad inventore hic repellendus sapiente. Labore nemo at magnam praesentium
-                                distinctio.
-                            </p>
-                            <a href="">Read More</a>
-                        </article>
+                                <div class="cambio">
+                                    <ul class="mylist">
+                                        <li><span>05</span></li>
+                                        <li><span>Mar</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <!---->
+                            <div class="letras">
+                                <h3><span>Our Weekly Best Foods</span></h3>
+                                <h4><span>Posted by Rovers</span></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fugit adipisci voluptate</p>
+                                <a href="" class="boton2"><span>Read More</span>
+                                    
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="column">
+                            <div class="imagen">
+
+                                <figure>
+                                    <img src="images/news4.jpg" alt="">
+                                </figure>
+
+                                <div class="cambio">
+                                    <ul>
+                                        <li><span>17</span></li>
+                                        <li><span>Feb</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="letras">
+                                <h3>Top Five Reason To Visit</h3>
+                                <h4>Posted by Rovers</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fugit adipisci voluptate</p>
+                                <a href="" class="boton2">Read More
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="column">
+                            <div class="imagen">
+
+                                <figure>
+                                    <img src="images/news1.jpg" alt="">
+                                </figure>
+
+                                <div class="cambio">
+                                    <ul>
+                                        <li><span>28</span></li>
+                                        <li><span>Feb</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="letras">
+                                <h3>Restaurant's Inside Design</h3>
+                                <h4>Posted by Rovers</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fugit adipisci voluptate</p>
+                                <a href="" class="boton2">Read More
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
