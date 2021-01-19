@@ -316,6 +316,24 @@ main section div .imagen {
     text-align: center;
 }
 
+
+/* QUINTO CAMBIO */
+
+main section div .cambio {
+    /* position: absolute; */
+    position: absolute;
+    top: 0.1px;
+    left: 0.1px;
+}
+
+
+/* PRE-SEXTO */
+
+main section div .letras {
+    position: relative;
+    left: 20px;
+}
+
 main #ourservices .grid article {
     padding: calc(var(--margingrid)*2) 0;
     border-bottom: 1px solid #aaa;
